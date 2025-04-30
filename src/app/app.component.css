@@ -1,0 +1,24 @@
+/* Estilos para el contenedor principal */
+.row {
+  padding: 10px;
+}
+.col-md-2 {
+  padding: 10px;
+}
+
+.titulo {
+  color: #ffffff;
+}
+
+.body {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.card{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+

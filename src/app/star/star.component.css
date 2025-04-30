@@ -1,0 +1,19 @@
+span {
+  padding: 2px;
+}
+
+.star-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1px; /* Espacio muy leve entre estrellas */
+  padding: 0;
+  margin: 0;
+}
+
+.star-container img {
+  width: 16px;  /* Tamaño pequeño como en el PDF */
+  height: 16px;
+  vertical-align: middle;
+}
+

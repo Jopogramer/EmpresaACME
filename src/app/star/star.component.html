@@ -1,0 +1,6 @@
+<div class="star-container">
+  <img *ngFor="let star of stars" 
+       [src]="getStarImage(star)" 
+       [title]="starRating + ' estrellas'" 
+       alt="estrella" />
+</div>
