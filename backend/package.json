@@ -1,0 +1,21 @@
+{
+  "name": "backend_server",
+  "version": "1.0.0",
+  "description": "Servidor Backend - Curso de angular",
+  "license": "ISC",
+  "author": "Jose Poblete",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

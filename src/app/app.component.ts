@@ -10,6 +10,10 @@ import { allIcons } from 'ngx-bootstrap-icons';
 export class AppComponent {
   title = 'Empresa ACME';
 
+  _listFilter: string = '';
+  filteredProducts: Product[] = [];
+  products: Product[] = [];
+
   Products: Product[] = [
     {
       productId: 1,
